@@ -1,59 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
 header{
-    height: auto;
-    /* width: auto; */
-    /* background-color: red; */
     display: flex;
     justify-content: space-between;
-    width:  1,280px;
-    height: 66px;
-    padding: 16px, 64px, 16px, 64px;
-    border: 0px, 0px, 1px, 0px;
-}
-.slogo{
-    margin-left: 2%;
-}
-.sociallogo{
-    /* margin-right: 1000px ; */
-    margin-right: 2% ;
+    padding: 5px;
+    margin: 5px;
 }
 
-.box{
-    display:flex;
-    /* justify-content: baseline; */
-    /* background-color: rebeccapurple; */
+header > img {
+    align-self: center;
 }
-.box1{
-    width: 900px;
-    height: 654px;
-    padding: 184px, 32px, 0px, 32px;
-    gap: 16px;
-    background-color: #FFFFFF;
-    
+
+hr {
+    color: rgb(255, 255, 255);
+}
+
+.content {
+    display: flex;
+}
+
+.content > div {
+    /* background-color: bisque; */
+    margin: 5px;
+    width: 50%;
+    height: 89vh;
+}
+
+.tweet_home{
+    flex: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tweet-box {
+    height: 250px;
+    width: 400px;
+    border: 1px solid rgb(210, 206, 206);
+    border-radius: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5px;
 
 }
 
-.box2{
-    width:600px;
-    height: 654px;
-    padding: 24px;
-    gap: 16px;
-    background-color: #FFFFFF;
-
+.upper {
+    display: flex;
 }
 
-.one{
-    color: #ffffff;
-    width: 50px;
-    height: auto;
-    border: 1px solid blue;
-    background-color: blue;
-    border-radius: 5cap;
+.upper > textarea {
+    font-family: 'Poppins', sans-serif;
+    font-size: medium;
+    border: none;
+    height: 150px;
+    width: 100%;
+    resize: none;
+    padding: 15px;
 }
-#post{
+
+.upper > textarea:focus, input:focus {
+    outline: none;
+  }
+
+#profile-pic {
+    align-self: flex-start;
+    margin: 3px;
+}
+
+
+
+.lower {
+    display: flex;
+    justify-content: space-between;
+}
+
+.lower > p {
+    margin-left: 15px;
+}
+
+.lower > button {
+    font-size: medium;
     color: white;
-    background-color: blue;
-    width: 112px;
-    height: 38px;
-    border-radius: 5rem;
-    margin-left: 200px;
+    margin-right: 15px;
+    background-color: rgb(22, 161, 189);
+    height: 50px;
+    width: 100px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.lower > button:hover {
+    background-color: rgb(11, 113, 133);
+    transition: background-color 0.5s;
+}
+
+.post-heading {
+    font-weight: bold;
+    color: rgb(53, 54, 54);
+}
+
+
+.profile-detail{
+    display: flex;
+}
+
+.profile-detail > p {
+    padding: 5px;
+}
+
+#profile-name {
+    font-weight: bold;
+    color: rgb(41, 47, 49);
+}
+
+#username {
+    color: rgb(140, 136, 136);
+}
+
+.tweet-box-upper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.action-buttons > button {
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+
+
+.tweet-box{
+    margin: 5px;
+}
+
+.tweets {
+    overflow: scroll;
+}
+
+.tweet_post > .post > .tweet-box > .middle {
+    flex: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
