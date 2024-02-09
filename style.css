@@ -26,14 +26,11 @@ hr {
     display: flex;
 }
 
-.content > div {
-    /* background-color: bisque; */
+.tweet_home {
+
     margin: 5px;
     width: 50%;
     height: 89vh;
-}
-
-.tweet_home{
     flex: 75%;
     display: flex;
     justify-content: center;
