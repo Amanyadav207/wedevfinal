@@ -21,7 +21,7 @@ document.querySelector("#post-button").onclick = () => {
             <div class="tweet-box-upper">
                 <div class="profile-detail">
                     <img id="profile-pic" src="https://d2beiqkhq929f0.cloudfront.net/public_assets/assets/000/064/031/original/profile_image.png?1706888739" alt="profile-pic">
-                    <p id="profile-name">Yash Arya</p>
+                    <p id="profile-name">Aman Yadav</p>
                     <p id="username">@username</p>
                 </div>
                 <div class="action-buttons">
